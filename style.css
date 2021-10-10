@@ -187,3 +187,43 @@ html{
     animation: tank 1s linear;
     animation-iteration-count: infinite;
 }
+.photo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-container{
+    width: 60%;
+}
+.photo-image img{
+    max-width: 100%;
+    box-shadow: 0 0 10px 1.5px rgba(0, 0, 0, 0.377);
+}
+.text1{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.text2{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.photo-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.photo-image{
+    display: flex;
+    align-items: flex-start;
+}
+.img1{
+    width: 55%;
+}
+.img-wrap{
+    margin-left: 20px;
+}
+.img2{
+    margin-bottom: 20px;
+}
